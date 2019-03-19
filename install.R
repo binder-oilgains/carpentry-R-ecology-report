@@ -16,3 +16,7 @@ install.packages("tidyverse")
 install.packages("shiny")
 install.packages("DT")
 install.packages("rmarkdown")
+install.packages("caTools")
+install.packages("bitops")
+install.packages("rprojroot")
+

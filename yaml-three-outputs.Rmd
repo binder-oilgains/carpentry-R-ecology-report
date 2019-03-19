@@ -1,0 +1,36 @@
+---
+title: "Final Report of Our Ecology Survey"
+author: Principal Investigators: Donna Wrublewski, Thomas Morell, Gail Clement, `r params$institution`
+date: "`r format(Sys.Date(), '%A, %B %d, %Y')`"
+output:
+   html_document:
+    code_folding: hide
+    highlight: kate
+    number_sections: yes
+    theme: journal
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+    
+ 
+  slidy_presentation:
+    incremental: true
+    font_adjustment: -1
+    footer: "Copyright (c) 2019, Caltech" 
+ 
+ word_document:
+    toc: yes
+    toc_depth: '2'
+  
+params:
+  institution:
+    choices:
+    - Kentucky Fried Chicken, Inc.
+    - CODATA-RDA Summer School for Data Science
+    - Elsevier Inc
+    - California Institute of Technology
+    input: select
+    label: 'Institution:'
+    value: California Institute of Technology
+bibliography: references.bib
+---

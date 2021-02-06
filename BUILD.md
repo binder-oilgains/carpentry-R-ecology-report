@@ -1,7 +1,7 @@
 # BUILD
 
 
-* Builds an RStudio environment
+* Builds an RStudio environment. Anaconda included
 * Installs the following packages
     ```
     install.packages("gridExtra") # Download and install gridExtra
@@ -38,6 +38,26 @@
 *   HTML report generated from RStudio
 
 ![image-20210206100736773](assets/BUILD/image-20210206100736773.png)
+
+
+
+*   Anaconda version: 4.9.2
+
+```
+conda info
+```
+
+
+
+![image-20210206101034228](assets/BUILD/image-20210206101034228.png)
+
+```
+conda info --envs
+```
+
+
+
+![image-20210206101230745](assets/BUILD/image-20210206101230745.png)
 
 
 

@@ -4,3 +4,5 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
+  - torch
+  

@@ -1,6 +1,6 @@
 channels:
   - conda-forge
-  - torch
+  - pytorch
 dependencies:
   - numpy
   - matplotlib
